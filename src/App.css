@@ -26,11 +26,14 @@ html,
 
 #profile {
   width: 80%;
-  height: 350px;
-  max-height: 500px;
+  height: 50vh;
+  max-height: 700px;
+  min-height: 350px;
   max-width: 500px;
+  min-width: 300px;
   background-image: url(./perfil.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   border-radius: 4px;
@@ -46,7 +49,14 @@ html,
   font-family: "Playfair Display", serif;
 }
 
-#about-title {
+#about-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-title {
   font-family: "Playfair Display", serif;
   font-size: 2em;
   margin-top: 20px;
@@ -67,12 +77,29 @@ html,
   margin-top: 20px;
 }
 
+.socialIcon:hover {
+  filter: invert(66%) sepia(9%) saturate(429%) hue-rotate(176deg)
+    brightness(97%) contrast(88%);
+  transform: scale(1.1);
+}
+
 .socialIcon {
   width: 10%;
+  max-width: 200px;
   filter: invert(100%) sepia(0%) saturate(1401%) hue-rotate(217deg)
     brightness(115%) contrast(100%);
+  transition: 0.3s all;
 }
 
 .socialIcon:last-of-type {
   margin-left: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  #about-cont {
+    flex-direction: row;
+  }
+  #profile {
+    margin-left: 30px;
+  }
 }
