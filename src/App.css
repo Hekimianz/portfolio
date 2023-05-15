@@ -49,7 +49,8 @@ html,
   font-family: "Playfair Display", serif;
 }
 
-#about-div {
+#about-div,
+#work-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,6 +94,48 @@ html,
 
 .socialIcon:last-of-type {
   margin-left: 10px;
+}
+
+#work-cont {
+  margin-top: 50px;
+}
+
+.project-cont {
+  width: 90%;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.project-img {
+  width: 100%;
+  height: 20vh;
+  object-fit: fill;
+  object-position: 52%;
+}
+
+.project-info {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.project-title {
+  margin-right: auto;
+  margin-left: 5%;
+  font-family: "Playfair Display", serif;
+}
+
+.project-icon {
+  width: 10%;
+  margin: 0 5px;
+}
+
+.project-desc {
+  color: #53585f;
+  margin: 0 20px 50px 20px;
+}
+
+.project-cont:last-of-type {
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 800px) {
