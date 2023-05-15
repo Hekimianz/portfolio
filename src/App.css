@@ -181,12 +181,6 @@ html,
   gap: 10px;
   box-sizing: border-box;
   overflow: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-#skills-bar::-webkit-scrollbar {
-  display: none;
 }
 
 .skill-icon {
