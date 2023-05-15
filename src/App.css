@@ -51,7 +51,8 @@ html,
 
 #about-div,
 #work-cont,
-#skills-cont {
+#skills-cont,
+#contact-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +63,7 @@ html,
   font-family: "Playfair Display", serif;
   font-size: 2em;
   margin: 50px 0;
-  color: rgb(128, 162, 255);
+  color: #80a2ff;
 }
 
 .about-text {
@@ -79,7 +80,8 @@ html,
   margin-top: 20px;
 }
 
-.socialIcon:hover {
+.socialIcon:hover,
+.contactSocial:hover {
   filter: invert(66%) sepia(9%) saturate(429%) hue-rotate(176deg)
     brightness(97%) contrast(88%);
   transform: scale(1.1);
@@ -154,7 +156,6 @@ html,
 .project-icon:hover {
   filter: invert(34%) sepia(5%) saturate(1044%) hue-rotate(175deg)
     brightness(86%) contrast(78%);
-
   transform: scale(1.1);
 }
 
@@ -177,7 +178,7 @@ html,
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 100px;
+  gap: 10px;
   box-sizing: border-box;
   overflow: scroll;
   -ms-overflow-style: none;
@@ -196,6 +197,10 @@ html,
   margin-right: 50px;
 }
 
+.skill-icon:first-of-type {
+  margin-left: 50px;
+}
+
 .skillCont {
   display: flex;
   flex-direction: column;
@@ -207,9 +212,56 @@ html,
 .skill-title {
   color: white;
   text-align: center;
-  margin-right: 50px;
+
   margin-top: 15px;
   font-size: 2em;
+}
+
+.contact-text {
+  color: white;
+  font-size: 1.8em;
+  width: 90%;
+  text-align: center;
+}
+
+hr {
+  height: 5px;
+  width: 100%;
+  margin: 50px 0;
+  border: none;
+  background-color: #fff473;
+}
+
+.contact-info {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-span {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.contactIcon {
+  width: 10%;
+  max-width: 250px;
+  filter: invert(100%) sepia(0%) saturate(1401%) hue-rotate(217deg)
+    brightness(115%) contrast(100%);
+  margin-left: auto;
+}
+
+.contactSocial {
+  width: 50%;
+  max-width: 100px;
+  filter: invert(100%) sepia(0%) saturate(1401%) hue-rotate(217deg)
+    brightness(115%) contrast(100%);
+}
+
+.contactLink {
+  text-align: center;
 }
 
 @media screen and (min-width: 800px) {
@@ -218,5 +270,13 @@ html,
   }
   #profile {
     margin-left: 30px;
+  }
+
+  .contact-text {
+    width: 50%;
+  }
+
+  #skills-bar {
+    gap: 100px;
   }
 }
