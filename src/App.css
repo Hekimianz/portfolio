@@ -61,7 +61,7 @@ html,
   font-family: "Playfair Display", serif;
   font-size: 2em;
   margin: 50px 0;
-  color: #80a2ff;
+  color: rgb(128, 162, 255);
 }
 
 .about-text {
@@ -114,6 +114,14 @@ html,
   max-width: 500px;
   background-color: white;
   margin-bottom: 50px;
+  transition: 0.3s all;
+  border-radius: 4px;
+}
+
+.project-cont:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(128, 1680, 25593, 0.25) 0px 30px 60px -12px,
+    rgba(128, 168, 255, 0.3) 0px 18px 36px -18px;
 }
 
 .project-img {
@@ -121,6 +129,8 @@ html,
   height: 60%;
   object-fit: fill;
   object-position: 52%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .project-info {
@@ -137,6 +147,14 @@ html,
 .project-icon {
   width: 10%;
   margin: 0 5px;
+  transition: 0.3s all;
+}
+
+.project-icon:hover {
+  filter: invert(34%) sepia(5%) saturate(1044%) hue-rotate(175deg)
+    brightness(86%) contrast(78%);
+
+  transform: scale(1.1);
 }
 
 .project-desc {
