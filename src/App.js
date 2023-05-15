@@ -1,7 +1,6 @@
 import "./App.css";
 import windi from "./windi.png";
 import battleship from "./battleship.png";
-import cv from "./cv.png";
 import doit from "./doit.png";
 import library from "./library.png";
 import memoron from "./memoron.png";
@@ -105,13 +104,6 @@ function Work() {
         img={doit}
         git="https://github.com/Hekimianz/ToDo"
         live="https://hekimianz.github.io/ToDo/"
-      />
-      <Project
-        name="CV Generator"
-        desc="Curriculum Generator App."
-        img={cv}
-        git="https://github.com/Hekimianz/cv-application"
-        live="https://hekimianz.github.io/cv-application/"
       />
       <Project
         name="Library"
