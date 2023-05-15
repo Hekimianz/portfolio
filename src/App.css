@@ -50,7 +50,8 @@ html,
 }
 
 #about-div,
-#work-cont {
+#work-cont,
+#skills-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,6 +163,38 @@ html,
   margin: 0 20px 50px 20px;
   box-sizing: border-box;
   height: 50px;
+}
+
+#skills-bar {
+  width: 100vw;
+  height: 400px;
+  background-color: #33363a;
+  background-image: url(./assets/background.png);
+  background-size: cover;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+  box-sizing: border-box;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#skills-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.skill-icon {
+  height: 50%;
+  width: auto;
+}
+
+.skill-icon:last-of-type {
+  margin-right: 50px;
 }
 
 @media screen and (min-width: 800px) {
