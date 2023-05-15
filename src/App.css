@@ -60,7 +60,7 @@ html,
 .cont-title {
   font-family: "Playfair Display", serif;
   font-size: 2em;
-  margin-top: 20px;
+  margin: 50px 0;
   color: #80a2ff;
 }
 
@@ -100,15 +100,25 @@ html,
   margin-top: 50px;
 }
 
+#projects-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
 .project-cont {
   width: 90%;
+  max-width: 500px;
   background-color: white;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .project-img {
   width: 100%;
-  height: 20vh;
+  height: 60%;
   object-fit: fill;
   object-position: 52%;
 }
@@ -132,10 +142,8 @@ html,
 .project-desc {
   color: #53585f;
   margin: 0 20px 50px 20px;
-}
-
-.project-cont:last-of-type {
-  margin-bottom: 50px;
+  box-sizing: border-box;
+  height: 50px;
 }
 
 @media screen and (min-width: 800px) {
