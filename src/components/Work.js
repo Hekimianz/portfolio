@@ -42,11 +42,11 @@ export default function Work() {
           live="https://hekimianz.github.io/tenzies/"
         />{" "}
         <Project
-          name="DOiT"
-          desc="Simple To Do App."
-          img={doit}
-          git="https://github.com/Hekimianz/ToDo"
-          live="https://hekimianz.github.io/ToDo/"
+          name="WiNDi"
+          desc="Weather app built using OpenWeather API."
+          img={windi}
+          git="https://github.com/Hekimianz/windi"
+          live="https://hekimianz.github.io/windi/"
         />
         <Project
           name="Memoron"
