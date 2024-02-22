@@ -1,35 +1,38 @@
 import Project from "./Project";
 import windi from "../assets/windi.png";
+import routem from "../assets/routem.png";
+import bookhaven from "../assets/bookhaven.png";
 import battleship from "../assets/battleship.png";
 import doit from "../assets/doit.png";
 import library from "../assets/library.png";
 import memoron from "../assets/memoron.png";
 import tenzies from "../assets/tenzies.png";
+import mountain from "../assets/mountain.png";
 export default function Work() {
   return (
     <section id="work-cont">
       <h2 className="cont-title">My work</h2>
       <div id="projects-cont">
         <Project
-          name="WINDi"
-          desc="Weather lookup app. Built using OpenWeather API."
-          img={windi}
-          git="https://github.com/Hekimianz/windi"
-          live="https://hekimianz.github.io/windi/"
+          name="Mountain Harmony"
+          desc="Online tea shop PERN app, with user authentication. Built with React, React Routing, Express.js, Node.js, hooked up to a PostgreSQL database."
+          img={mountain}
+          git="https://github.com/Hekimianz/mountain-harmony"
+          live="https://github.com/Hekimianz/mountain-harmony"
         />
         <Project
-          name="Memorón"
-          desc="Pokémon themed memory game."
-          img={memoron}
-          git="https://github.com/Hekimianz/react-memory-card"
-          live="https://hekimianz.github.io/react-memory-card/"
+          name="Bookhaven"
+          desc="Book e-shop. Built with Redux, React, React Routing and Redux toolkit."
+          img={bookhaven}
+          git="https://github.com/Hekimianz/bookhaven"
+          live="https://bookhaven-hekimian.netlify.app"
         />
         <Project
-          name="Battleship"
-          desc="Classic Battleship board game."
-          img={battleship}
-          git="https://github.com/Hekimianz/battleship"
-          live="https://hekimianz.github.io/battleship/"
+          name="Gotta Routtem All"
+          desc="Pokemon lookup app. Built with React, React Routing"
+          img={routem}
+          git="https://github.com/Hekimianz/gotta-routem-all"
+          live="https://gotta-route-em-all.netlify.app"
         />
         <Project
           name="Tenzies"
@@ -46,11 +49,11 @@ export default function Work() {
           live="https://hekimianz.github.io/ToDo/"
         />
         <Project
-          name="Library"
-          desc="App that keeps track on books you have read, or books you want to read."
-          img={library}
-          git="https://github.com/Hekimianz/library"
-          live="https://hekimianz.github.io/library/"
+          name="Memoron"
+          desc="Pokemo themed memory card. Built using React,PokeApi API"
+          img={memoron}
+          git="https://github.com/Hekimianz/react-memory-card"
+          live="https://hekimianz.github.io/react-memory-card/"
         />
       </div>
     </section>
