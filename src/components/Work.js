@@ -5,7 +5,7 @@ import bookhaven from "../assets/bookhaven.png";
 import battleship from "../assets/battleship.png";
 import doit from "../assets/doit.png";
 import library from "../assets/library.png";
-import memoron from "../assets/memoron.png";
+import inventory from "../assets/inventory.png";
 import tenzies from "../assets/tenzies.png";
 import mountain from "../assets/mountain.png";
 export default function Work() {
@@ -19,6 +19,13 @@ export default function Work() {
           img={mountain}
           git="https://github.com/Hekimianz/mountain-harmony"
           live="https://github.com/Hekimianz/mountain-harmony"
+        />
+        <Project
+          name="Inventory Master"
+          desc="Efficient inventory management using React, Node.js, PostgreSQL."
+          img={inventory}
+          git="https://github.com/Hekimianz/inventoryMaster"
+          live="https://inventorymaster.onrender.com/"
         />
         <Project
           name="Bookhaven"
@@ -47,13 +54,6 @@ export default function Work() {
           img={windi}
           git="https://github.com/Hekimianz/windi"
           live="https://hekimianz.github.io/windi/"
-        />
-        <Project
-          name="Memoron"
-          desc="Pokemo themed memory card. Built using React,PokeApi API"
-          img={memoron}
-          git="https://github.com/Hekimianz/react-memory-card"
-          live="https://hekimianz.github.io/react-memory-card/"
         />
       </div>
     </section>
