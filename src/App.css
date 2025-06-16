@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body,
 html,
@@ -46,7 +46,7 @@ html,
   font-size: 3em;
   padding-left: 10px;
   padding-bottom: 5px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 #about-div,
@@ -60,7 +60,7 @@ html,
 }
 
 .cont-title {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 2em;
   margin: 50px 0;
   color: #80a2ff;
@@ -129,7 +129,7 @@ html,
 
 .project-img {
   width: 100%;
-  height: 60%;
+  height: 300px;
   object-fit: fill;
   object-position: 52%;
   border-top-left-radius: 10px;
@@ -144,7 +144,7 @@ html,
 .project-title {
   margin-right: auto;
   margin-left: 5%;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .project-icon {

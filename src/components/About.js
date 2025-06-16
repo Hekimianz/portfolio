@@ -7,19 +7,20 @@ export default function About() {
       <div id="about-div">
         <h2 className="cont-title">About me</h2>
         <p className="about-text">
-          Hi! My name is Aram Hekimian Guerrero and I'm a 24-year-old web
-          developer based in Mexico City.
+          Hi, I’m Aram Hekimian Guerrero—a 27-year-old web developer with 4
+          years of experience, based in Mexico City.
         </p>
         <p className="about-text">
-          I have a passion for creating clean, responsive, and user-friendly
-          websites that help businesses and individuals establish a strong
-          online presence.
+          I’m self-taught, with a strong passion for continuous learning and
+          building from the ground up. Every project in this portfolio reflects
+          that mindset—from full-stack apps with decoupled architectures to
+          real-time features and efficient data handling. I enjoy diving into
+          new technologies and turning ideas into practical, user-focused tools.
         </p>
         <p className="about-text">
-          When I'm not coding, you can find me exploring new places, watching
-          basketball, or simply enjoying some downtime with family and friends.
-          Thank you for taking the time to get to know me a little better, and I
-          hope to work with you soon!
+          When I’m not coding, I’m usually reading or spending time with family
+          and friends. Thanks for taking the time to learn a bit about me—I look
+          forward to working together.
         </p>
         <div id="socials">
           <a
